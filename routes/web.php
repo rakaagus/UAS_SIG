@@ -5,7 +5,15 @@ use App\Http\Controllers\PetaController;
 use App\Http\Controllers\ProvinsiController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.index');
+});
+
+Route::get('/about', function () {
+    return view('about.index');
+});
+
+Route::get('/our_team', function () {
+    return view('OurTeam.index');
 });
 
 
