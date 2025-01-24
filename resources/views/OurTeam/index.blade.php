@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- testimonial section start -->
-    <div class="testimonial_section layout_padding">
+    <div class="testimonial_section layout_padding" style="margin-bottom: 150px">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -20,16 +20,16 @@
                                             enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                                             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
-                                        <h4 class="client_name">Marri Fen</h4>
-                                        <div class="client_img"><img src="images/client-img.png"></div>
+                                        <h4 class="client_name">Raka Agus Maulana</h4>
+                                        <div class="client_img"><img src="images/img-raka.jpg" style="width: 200px; border-radius: 5px"></div>
                                     </div>
                                     <div class="carousel-item">
                                         <p class="testimonial_text">tempor incididunt ut labore et dolore magna aliqua. Ut
                                             enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                                             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
-                                        <h4 class="client_name">Marri Fen</h4>
-                                        <div class="client_img"><img src="images/client-img.png"></div>
+                                        <h4 class="client_name">Shafrina Khosya Qolba</h4>
+                                        <div class="client_img"><img src="images/img-safrina.jpg" style="width: 200px; border-radius: 5px"></div>
                                     </div>
                                     <div class="carousel-item">
                                         <p class="testimonial_text">tempor incididunt ut labore et dolore magna aliqua. Ut

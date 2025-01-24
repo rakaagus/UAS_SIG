@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- about section start -->
-    <div class="about_section layout_padding">
+    <div class="about_section layout_padding" style="margin-bottom: 150px;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
