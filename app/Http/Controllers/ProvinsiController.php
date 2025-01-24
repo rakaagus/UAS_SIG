@@ -10,7 +10,8 @@ class ProvinsiController extends Controller
     public function index(){
         $provinces = Provinsi::all();
         return view('provinsi.index', [
-            'provinces' => $provinces
+            'provinces' => $provinces,
+            'title' => 'Provinsi'
         ]);
     }
 }

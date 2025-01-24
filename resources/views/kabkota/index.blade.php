@@ -5,8 +5,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="services_taital">Peta Provinsi Indonesia</h1>
-                    <p class="services_text">Berikut Titik peta provinsi indonesia</p>
+                    <h1 class="services_taital">Peta Kabkota Indonesia</h1>
+                    <p class="services_text">Berikut Titik peta kabupaten dan kota indonesia</p>
                 </div>
             </div>
             <div class="services_section_2">
@@ -28,7 +28,7 @@
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
 
-        var provinces = @json($provinces);
+        var provinces = @json($kabkota);
         console.log(provinces);
         provinces.forEach(function(provinces) {
             var marker = L.marker([provinces.latitude, provinces.longitude]).addTo(map).bindPopup(provinces.name);
