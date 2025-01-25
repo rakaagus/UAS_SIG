@@ -19,6 +19,8 @@ return new class extends Migration
             $table->double('longitude')->default(0)->nullable(false);  
             $table->bigInteger('population')->default(0)->nullable(false);
             $table->bigInteger('perokok')->default(0)->nullable(false);
+            $table->bigInteger('ternak')->default(0)->nullable(false);
+            $table->bigInteger('ternak')->default(0)->nullable(false);
             $table->enum('type_polygon', ['Polygon', 'MultiPolygon'])->default('Polygon');  
             $table->longText('polygon')->nullable(true);  
             $table->timestamps();
