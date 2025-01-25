@@ -9,7 +9,8 @@ class Jb1Controller extends Controller
 {
     public function index()
     {
+        $title = 'Jumlah Penduduk Jabar';
         $jb1 = jb1::all();
-        return view('jb1', compact('jb1'));
+        return view('tematik.index', compact('jb1', 'title'));
     }
 }

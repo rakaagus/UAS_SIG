@@ -17,8 +17,15 @@
             <li class="nav-item {{ Request::is('provinsi') ? 'active' : '' }}">
                 <a class="nav-link" href="/provinsi">Provinsi</a>
             </li>
-            <li class="nav-item {{ Request::is('blog.html') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ url('blog.html') }}">Tematik</a>
+            <li class="nav-item dropdown {{ Request::is('tematik*') ? 'active' : '' }}">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tematik
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/tematik/jumlah-penduduk">Populasi Penduduk</a>
+                    <a class="dropdown-item" href="/tematik/jenis2">Jenis Tematik 2</a>
+                    <a class="dropdown-item" href="/tematik/jenis3">Jenis Tematik 3</a>
+                </div>
             </li>
             <li class="nav-item {{ Request::is('our_team') ? 'active' : '' }}">
                 <a class="nav-link" href="/our_team">Our Team</a>

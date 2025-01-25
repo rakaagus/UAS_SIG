@@ -602,22 +602,11 @@ button {
 }
 
 .services_taital {
-    width: 66%;
+    width: 80%;
     float: left;
     font-size: 40px;
     color: #373736;
     font-weight: bold;
-}
-
-.services_taital::after {
-    position: absolute;
-    content: '';
-    width: 80px;
-    height: 6px;
-    background-color: #2973B2;
-    bottom: 25px;
-    right: 160px;
-    border-radius: 4px;
 }
 
 .services_text {
