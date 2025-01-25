@@ -36,8 +36,8 @@
                                             enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
                                             ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint</p>
-                                        <h4 class="client_name">Marri Fen</h4>
-                                        <div class="client_img"><img src="images/client-img.png"></div>
+                                        <h4 class="client_name">Zufikar Hilman Prayogo</h4>
+                                        <div class="client_img"><img src="images/img-hilman.png"></div>
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
