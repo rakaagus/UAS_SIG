@@ -26,4 +26,12 @@ Route::get('/our_team', function () {
 
 Route::get('/provinsi', [ProvinsiController::class, 'index']);
 Route::get('/kabkota', [KabkotaController::class, 'index']);
-Route::get('/tematik/jumlah-penduduk', [Jb1Controller::class, 'index']);
+Route::get('/tematik/jumlah-penduduk', [Jb1Controller::class, 'jb1']);
+Route::get('/tematik/jumlah-perokok', [Jb1Controller::class, 'jb2']);
+Route::get('/tematik/jumlah-ternak', [Jb1Controller::class, 'jb3']);
+Route::get('/tematik/jumlah-kemiskinan', [Jb1Controller::class, 'jb4']);
+
+Route::get('/jb1', [Jb1Controller::class, 'jb1']);
+Route::get('/jb2', [Jb1Controller::class, 'jb2']);
+Route::get('/jb3', [Jb1Controller::class, 'jb3']);
+Route::get('/jb4', [Jb1Controller::class, 'jb4']);

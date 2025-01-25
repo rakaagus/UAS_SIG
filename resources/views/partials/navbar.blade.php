@@ -23,8 +23,9 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="/tematik/jumlah-penduduk">Populasi Penduduk</a>
-                    <a class="dropdown-item" href="/tematik/jenis2">Jenis Tematik 2</a>
-                    <a class="dropdown-item" href="/tematik/jenis3">Jenis Tematik 3</a>
+                    <a class="dropdown-item" href="/tematik/jumlah-perokok">Presentasi perokok</a>
+                    <a class="dropdown-item" href="/tematik/jumlah-ternak">Presentasi Jumlah Ternak</a>
+                    <a class="dropdown-item" href="/tematik/jumlah-kemiskinan">Presentasi Jumlah Kemiskinan</a>
                 </div>
             </li>
             <li class="nav-item {{ Request::is('our_team') ? 'active' : '' }}">
